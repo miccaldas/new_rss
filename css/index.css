@@ -1,0 +1,58 @@
+ *, *::before, *::after{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+  }
+
+body {
+  background-color: ;
+  color: ;
+  min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: ;
+    color: ;
+    font-family: ;
+    margin-top: ;
+    margin-bottom: ;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 100vh;
+  position: relative;
+  align-items: ;
+}
+
+.row {
+    display: flex;
+}
+
+/* unvisited link */
+a:link {
+  color: #464F41;
+}
+
+/* visited link */
+a:visited {
+  color: #BFCBA8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #56776C;
+}
+
+/* selected link */
+a:active {
+  color: #5B8A72;
+}
+
+.footer {
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-family: ;
